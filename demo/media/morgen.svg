@@ -15,7 +15,7 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="drawing-1.svg">
+   sodipodi:docname="morgen.svg">
   <defs
      id="defs4">
     <filter
@@ -50,7 +50,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.35"
-     inkscape:cx="-106.42857"
+     inkscape:cx="118.42888"
      inkscape:cy="291.42857"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -68,7 +68,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -82,8 +82,8 @@
        id="rect3339"
        width="722.82397"
        height="717.10968"
-       x="-1.4119778"
-       y="344.37875" />
+       x="1.445165"
+       y="338.66446" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:80.35311127px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffd42a;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;filter:url(#filter3355)"
@@ -91,12 +91,12 @@
        y="584.12714"
        id="text3349"
        sodipodi:linespacing="125%"
-       transform="matrix(0.96088242,0,0,1.0128183,-9.3833421,42.399307)"><tspan
+       transform="matrix(0.83324528,0,0,0.89548432,6.934257,106.3835)"><tspan
          sodipodi:role="line"
          id="tspan3351"
          x="41.466446"
          y="584.12714"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:289.2711792px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold'">FOR</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:289.2711792px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold'">MOR</tspan><tspan
          sodipodi:role="line"
          x="41.466446"
          y="945.71613"
