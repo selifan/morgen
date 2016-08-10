@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- "greatApp" project definition file -->
+<projectDef>
+
+  <project name="greatApp" sourceFolder="media/">
+
+     <branch type="android" destinationFolder="greatApp/resources/">
+     </branch>
+
+     <branch type="ios" destinationFolder="ios-greatApp/resources/">
+       <images>
+         <image mask="*.svg" devices="iphone,iphone-2x" />
+       </images>
+     </branch>
+
+  </project>
+
+</projectDef>
