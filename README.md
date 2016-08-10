@@ -44,7 +44,7 @@ You will find "default" configuration file morgen.cfg.xml, that contains three "
 To change them or add your own ones, edit the global in morgen.cfg.xml -
 it should be placed in the same folder with morgen.php module.
 
-See a [wiki](wiki) for using details.
+See a [wiki](https://github.com/selifan/morgen/wiki) for using details.
 ## License
 Distributed under MIT License
 [MIT](https://opensource.org/licenses/MIT)
