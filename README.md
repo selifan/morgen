@@ -44,35 +44,7 @@ You will find "default" configuration file morgen.cfg.xml, that contains three "
 To change them or add your own ones, edit the global in morgen.cfg.xml -
 it should be placed in the same folder with morgen.php module.
 
-## Project definition
-Beside a main configuration, you have to prepare XML file that describes your project (possibly multi-target: isom android, webapp)
-It's name is up to you, just use it when you call createIconsFromImages() method.
-Let's assume we're developing a project called geratApp, so we will create XML definition for it in greatApp.xml:
-```xml
-<?xml version="1.0" encoding="UTF-8"?>
-<!-- "greatApp" project definition file -->
-<projectDef>
-
-  <project name="greatApp" sourceFolder="media/">
-
-     <branch type="android" destinationFolder="android/greatApp/resources/">
-     </branch>
-
-     <branch type="ios" destinationFolder="ios/greatApp/resources/">
-       <images>
-         <image mask="*.svg" devices="iphone,iphone-2x" />
-       </images>
-     </branch>
-
-  </project>
-
-</projectDef>
-```
-Here we tell that we're developping our application for android and ios, all source image files located in "media/" folder.
-For "android" project we want to create sets for all registered screen/device resolutions (because we didn't specify "image" tag with "devices" attribute)
-For "ios" we want create images just from "svg" source files and only for two resolutions - "iphone" and "iphone-2x".
-It is possible to set many "image" block in one "images" branch, specifying separated parameters for different files
-
+See a [wiki](wiki) for using details.
 ## License
-Distributed under MIT Licenses
+Distributed under MIT License
 [MIT](https://opensource.org/licenses/MIT)
