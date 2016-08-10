@@ -218,7 +218,7 @@ class IconGenerator {
             	  . str_replace('{projectname}', $this->project['name'], $this->_apptypes[$ptype]['projectFolderTpl']);
 			}
 
-	    	$img = ( isset($branch['images']) ? $branch['images'] : array(array('mask'=>'', 'devices'=>false) );
+	    	$img = ( isset($branch['images']) ? $branch['images'] : array(array('mask'=>'', 'devices'=>false) ));
 
 	    	foreach($img as $imitem) {
 

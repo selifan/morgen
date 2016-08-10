@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Configuration file for morgen.php Icon generator -->
+<morgen version="1.0">
+	<svgexportCmd>inkscape -z {from} -e {to}</svgexportCmd>
+	<commonParams jpgQuality="80" pngQuality="0" />
+    <configurations>
+
+		<configuration id="android">
+			  <folderProjects>/android/projects/</folderProjects>
+			  <projectFolderTpl>{projectname}/resources</projectFolderTpl>
+			  <devices>
+			    <device name="mdpi" folder="drawable-mdpi" width="48" />
+			    <device name="hdpi" folder="drawable-hdpi" width="72" />
+			    <device name="xhdpi" folder="drawable-xhdpi" width="96" />
+			    <device name="xxhdpi" folder="drawable-xxhdpi" width="144" />
+			  </devices>
+		</configuration>
+
+		<configuration id="ios">
+			  <folderProjects>/ios/projects/</folderProjects>
+			  <projectFolderTpl>{projectname}/Resources</projectFolderTpl>
+			  <devices>
+			    <device name="iphone" width="57" namePostfix="" />
+			    <device name="iphone-2x" width="114" namePostfix="@2x" />
+			    <device name="ipad" width="72" namePostfix="@72"/>
+			    <device name="retina-ipad" width="144" namePostfix="@144"/>
+			  </devices>
+		</configuration>
+
+		<configuration id="webapp">
+			  <folderProjects>/webapp/projects/</folderProjects>
+			  <projectFolderTpl>{projectname}/images/</projectFolderTpl>
+			  <devices>
+			    <device name="low" width="32" namePostfix="-32"/>
+			    <device name="mid" width="48" namePostfix="-48"/>
+			    <device name="high" width="64" namePostfix="-64"/>
+			  </devices>
+		</configuration>
+
+	</configurations>
+
+</morgen>
