@@ -7,7 +7,7 @@
 * PHP required: 5.3+
 * If you need 5.2-, delete namespace and use IconGenerator instead of \Morgen\IconGenerator
 * @author Alexander Selifonov < alex [at] selifan {dot} ru >
-* @link https://github.com/selifan/moregen
+* @link https://github.com/selifan/morgen
 * @license MIT
 */
 namespace Morgen;
