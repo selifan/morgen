@@ -3,23 +3,22 @@
 ## Short description
 
 Android and iOS developers know that designing one icon set for their application is not enough:
-because of many device types ans screen sizes they have to create resized pictire collections for many "resolutions".
-They should be placed in "resources" subfolders according to device types/display resolutions.
+because of many device types and screen sizes they have to create resized pictire collections for many "resolutions".
+These sets should be placed in "resources" subfolders according to device types/display resolutions.
+
 Android Studio has a special tools for dealing with them (Android media tools),
 some people use Photoshop/Illustrator scripts that automate creating icon sets for all resolutions.
+And there are a many other tools for that.
 
-Here is a PHP solution for that. It can make resized versions for JPG, PNG, GIF source files.
+Here is a PHP solution. It can make resized versions for JPG, PNG, GIF source files.
 
 If you have installed some SVG-to-PNG converter program (inkscape for example) that can work with command line parameters,
 Morgen can convert SVG files too (resized versions will be of PNG type).
 
-
 ## Simple Using example
 
 ```php
-include_once('src/morgen.php');
-
-include_once('morgen.php');
+include_once('../src/morgen.php');
 
 $generator = new \Morgen\IconGenerator();
 
@@ -38,13 +37,17 @@ Morgen can create all icon sets from a single media pack for all defined project
 for android version, for ios version, for web application etc.
 All you need is defining all "application types" in XML configuration file.
 
-You will find "default" configuration file morgen.cfg.xml, that contains three "predefined" profiles (application types) for generated pictures:
-"android", "ios" and "webapp" (webapp is just a sample)
+You will find default configuration file morgen.cfg.xml, that contains three "predefined" profiles (application types) for generated pictures:
+"android", "ios" and "webapp" (webapp is just a sample).
 
-To change them or add your own ones, edit the global in morgen.cfg.xml -
+To change them or add your own ones, edit the global parameters in morgen.cfg.xml -
 it should be placed in the same folder with morgen.php module.
 
+And you have to create definition XML file for each project, where you can choose desired 
+application types, destination folders, used devices types, and selected files.
+
 See a [wiki](https://github.com/selifan/morgen/wiki) for using details.
+
 ## License
 Distributed under MIT License
 [MIT](https://opensource.org/licenses/MIT)
